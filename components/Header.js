@@ -32,10 +32,11 @@ function Header() {
           <input
             type="text"
             placeholder="Search Facebook"
-            className="flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink"
+            className="hidden md:inline-flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink"
           />
         </div>
       </div>
+
       {/* Center */}
       <div className="flex justify-center flex-grow">
         <div className="flex space-x-6 md:space-x-2">
@@ -46,7 +47,17 @@ function Header() {
           <HeaderIcon Icon={UserGroupIcon} />
         </div>
       </div>
+
       {/* Right */}
+      <div className="flex items-center sm:space-x-2 justify-end">
+        {/* <Image /> */}
+
+        <o className="whitespace-nowrap font-semibold pr-3">Ramon Godas</o>
+        <ViewGridIcon className="icon" />
+        <ChatIcon className="icon" />
+        <BellIcon className="icon" />
+        <ChevronDownIcon className="icon" />
+      </div>
     </div>
   );
 }
