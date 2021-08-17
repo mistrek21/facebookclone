@@ -26,11 +26,41 @@ const stories = [
     src: "https://links.papareact.com/4u4",
     profile: "https://links.papareact.com/zvy",
   },
+  {
+    name: "MelO Invento",
+    src: "https://links.papareact.com/4u4",
+    profile: "https://links.papareact.com/zvy",
+  },
+  {
+    name: "MelO Invento",
+    src: "https://links.papareact.com/4u4",
+    profile: "https://links.papareact.com/zvy",
+  },
+  {
+    name: "MelO Invento",
+    src: "https://links.papareact.com/4u4",
+    profile: "https://links.papareact.com/zvy",
+  },
+  {
+    name: "MelO Invento",
+    src: "https://links.papareact.com/4u4",
+    profile: "https://links.papareact.com/zvy",
+  },
+  {
+    name: "MelO Invento",
+    src: "https://links.papareact.com/4u4",
+    profile: "https://links.papareact.com/zvy",
+  },
+  {
+    name: "MelO Invento",
+    src: "https://links.papareact.com/4u4",
+    profile: "https://links.papareact.com/zvy",
+  },
 ];
 
 function Stories() {
   return (
-    <div className="flex justify-center space-x-3 mx-auto">
+    <div className="flex space-x-3 overflow-scroll scrollbar-hide">
       {stories.map((story) => (
         <StoryCard
           key={story.src}
